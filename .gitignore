@@ -1,0 +1,14 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/TradeBotC/FileContentIndex
+/.vs/TradeBotC/v17/ipch/AutoPCH
+/vcpkg_installed
+/mysqlcppconn-10-vs14.dll
+/src/TradeBots/Crypto
+/src/Informers
+/out/build/x64-debug
+/build
+/.vs/TradeBotC/v17
+/.vs
