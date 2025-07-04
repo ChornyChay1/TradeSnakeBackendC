@@ -12,3 +12,4 @@
 /build
 /.vs/TradeBotC/v17
 /.vs
+/src/const.hpp
