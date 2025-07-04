@@ -47,12 +47,12 @@ make
 
 ### Диаграмма развертывания
 <p align="center">
-  <img src="./presentation/deployment_diagram_cpp.png" width="400" alt="Диаграмма развертывания торгового сервиса на C++" />
+  <img src="presentation/component_diagram.png" width="400" alt="Диаграмма развертывания торгового сервиса на C++" />
 </p>
 
 ### Диаграмма компонентов
 <p align="center">
-  <img src="./presentation/component_diagram_cpp.png" width="400" alt="Диаграмма компонентов торгового сервиса на C++" />
+  <img src="presentation/component_diagram_cpp.png" width="400" alt="Диаграмма компонентов торгового сервиса на C++" />
 </p>
 
 ## Автор и права
