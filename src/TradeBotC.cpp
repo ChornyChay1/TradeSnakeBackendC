@@ -48,7 +48,7 @@ std::map<std::string, std::string> parse_json_body(const std::string& body) {
                     result[key] = value.get<std::string>();
                 }
                 else {
-                    result[key] = value.dump(); // Преобразуем в строку, если это не строка
+                    result[key] = value.dump(); // Преобразуем в строку, если это не строква
                 }
             }
         }
