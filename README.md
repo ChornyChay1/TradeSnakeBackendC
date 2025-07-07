@@ -14,13 +14,7 @@
 - Надёжное и эффективное взаимодействие с MySQL
 - Управление ботами и их торговыми стратегиями в режиме реального времени
 
-## Используемые библиотеки
-
-- [Boost.Beast](https://www.boost.org/doc/libs/release/libs/beast/doc/html/index.html) — HTTP/WebSocket сервер  
-- [Boost.Asio](https://www.boost.org/doc/libs/release/doc/html/boost_asio.html) — асинхронный ввод-вывод  
-- [MySQL Connector/C++](https://dev.mysql.com/doc/connector-cpp/8.0/en/) — для работы с MySQL  
-- Стандартная библиотека C++ для многопоточности (std::thread, std::mutex и пр.)
-
+---
 ## Быстрый старт
 
 Склонировать репозиторий и собрать проект с помощью CMake:
@@ -33,7 +27,15 @@ cmake ..
 make
 ./TradeSnakeService
 ```
+---
+## Используемые библиотеки
 
+- [Boost.Beast](https://www.boost.org/doc/libs/release/libs/beast/doc/html/index.html) — HTTP/WebSocket сервер  
+- [Boost.Asio](https://www.boost.org/doc/libs/release/doc/html/boost_asio.html) — асинхронный ввод-вывод  
+- [MySQL Connector/C++](https://dev.mysql.com/doc/connector-cpp/8.0/en/) — для работы с MySQL  
+- Стандартная библиотека C++ для многопоточности (std::thread, std::mutex и пр.)
+
+---
 ## Особенности
 
 - Сервис работает как сервер с API для управления ботами и получения статистики
@@ -43,6 +45,7 @@ make
 
 Для полноценной работы системы требуется совместное использование с бекендом на Python.
 
+---
 ## Архитектура
 
 ### Диаграмма развертывания
@@ -55,8 +58,9 @@ make
   <img src="presentation/component_diagram.png" width="400" alt="Диаграмма компонентов торгового сервиса на C++" />
 </p>
 
-## Автор и права
+---
+## Связанные репозитории
 
-Артём Ковалёв © 2025  
-Все права защищены.
+Backend основной: [BackEndMain](https://github.com/ChornyChay1/TradeSnakeBackPython)  
+Frontend: [Frontend](https://github.com/ChornyChay1/TradeSnakeFront)  
 
