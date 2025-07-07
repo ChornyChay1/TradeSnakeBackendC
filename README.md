@@ -61,6 +61,6 @@ make
 ---
 ## Связанные репозитории
 
-Backend основной: [BackEndMain](https://github.com/ChornyChay1/TradeSnakeBackPython)  
-Frontend: [Frontend](https://github.com/ChornyChay1/TradeSnakeFront)  
+Backend основной: [BackEndMain.](https://github.com/ChornyChay1/TradeSnakeBackPython)  
+Frontend: [Frontend.](https://github.com/ChornyChay1/TradeSnakeFront)  
 
